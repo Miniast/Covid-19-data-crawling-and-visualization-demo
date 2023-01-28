@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="57063f1b2d314c5c90777ed6f2f90c76" class="chart-container" style="width:1400px; height:600px;"></div>
+    <script>
+        var chart_57063f1b2d314c5c90777ed6f2f90c76 = echarts.init(
+            document.getElementById('57063f1b2d314c5c90777ed6f2f90c76'), 'dark', {renderer: 'canvas'});
+        var option_57063f1b2d314c5c90777ed6f2f90c76 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "tot_confirmed_rate",
+            "legendHoverLink": true,
+            "data": [
+                0.001,
+                0.0015,
+                0.0017,
+                0.0023,
+                0.003,
+                0.0068,
+                0.0079,
+                0.031,
+                0.035,
+                0.036,
+                0.044,
+                0.046
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "tot_confirmed_rate"
+            ],
+            "selected": {
+                "tot_confirmed_rate": true
+            },
+            "show": true,
+            "left": "right",
+            "right": "right",
+            "top": "top",
+            "bottom": "top",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u56fd\u5bb6",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "interval": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "Tonga",
+                "Samoa",
+                "Kiribati",
+                "Vanuatu",
+                "Solomon Islands",
+                "Marshall Islands",
+                "China",
+                "Niger",
+                "Yemen",
+                "Chad",
+                "Palau",
+                "Tanzania"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u786e\u8bca\u4eba\u6570",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTextStyle": {
+                "padding": [
+                    0,
+                    100,
+                    0,
+                    0
+                ]
+            },
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Total confirmed rate bottom 12 - Covid-19 pandamic",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_57063f1b2d314c5c90777ed6f2f90c76.setOption(option_57063f1b2d314c5c90777ed6f2f90c76);
+    </script>
+</body>
+</html>
